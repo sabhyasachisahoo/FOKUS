@@ -6,8 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Live Site on Render](https://fokus.onrender.com)  
-_(Replace with your actual deployed URL if needed)_
+🔗 [Live Site on Render](https://fokus-1.onrender.com/)  
 
 ---
 
@@ -35,7 +34,7 @@ _(Replace with your actual deployed URL if needed)_
 ---
 
 ## 📁 File Structure
-
+```
 FOKUS/
 ├── public/
 ├── src/
@@ -78,7 +77,7 @@ FOKUS/
 ├── package-lock.json
 ├── package.json
 └── vite.config.js
-
+```
 
 
 ---
@@ -95,24 +94,29 @@ npm install
 
 
 💻 Development
+```
 npm run dev
+```
 
 🏗️ Production Build
+```
 npm run build
+```
 
 🔍 Preview Build
+```
 npm run preview
-
+```
 
 🌍 Deployment (Render)
 To deploy this app on Render as a static site:
-
+```
 Build Command: npm run build
 
 Publish Directory: dist
 
 Environment: Static Site
-
+```
 
 📬 Contact Form
 This project uses a basic mailto: link in the contact form. When users click Send, their default email client opens with pre-filled content.
